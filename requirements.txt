@@ -3,3 +3,4 @@ scikit-learn
 pandas
 joblib
 Flask
+gunicorn==19.9.0
