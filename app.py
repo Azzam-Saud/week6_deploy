@@ -45,5 +45,5 @@ def predict():
     # Display the prediction
     return f'Predicted Weather Type: {weather_type}'
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
