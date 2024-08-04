@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 # Load the trained model and other necessary components
 
-model = joblib.load('D:/Azzam/Personal_Projects/EVC/Python/AI_Track/Codes/week6/logistic_regression_model.joblib')
-scaler = joblib.load('D:/Azzam/Personal_Projects/EVC/Python/AI_Track/Codes/week6/scaler.joblib')
-label_encoder = joblib.load('D:/Azzam/Personal_Projects/EVC/Python/AI_Track/Codes/week6/label_encoder.joblib')
+model = joblib.load('logistic_regression_model.joblib')
+scaler = joblib.load('scaler.joblib')
+label_encoder = joblib.load('label_encoder.joblib')
 
 @app.route('/')
 def index():
